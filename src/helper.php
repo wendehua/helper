@@ -40,7 +40,7 @@ if (!function_exists("list_to_tree")) {
         return $tree;
     }
 }
-if (function_exists("parse_name")) {
+if (!function_exists("parse_name")) {
     function parse_name($name, $type = 0)
     {
         if ($type) {
