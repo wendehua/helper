@@ -4,5 +4,8 @@
 			"name" : "wendehua",
 			"email" : "376503128@qq.com"
 		}
-	]
+	],
+	"autoload" : {		 
+		"files":["src/helper.php"]
+	}
 }
