@@ -5,7 +5,12 @@
 			"email" : "376503128@qq.com"
 		}
 	],
-	"autoload" : {		 
-		"files":["src/helper.php"]
+	"autoload" : {
+		"files" : [
+			"src/helper.php"
+		],
+		"psr-4" : {
+			"wendehua" : "src"
+		}
 	}
 }
