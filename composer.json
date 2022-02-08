@@ -10,7 +10,7 @@
 			"src/helper.php"
 		],
 		"psr-4" : {
-			"wendehua" : "src"
+			"wendehua\\" : "src"
 		}
 	}
 }
